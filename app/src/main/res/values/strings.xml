@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Realtime_Fishing</string>
+    <string name="access_token">355d4079256e3c33d3644385c6e5f93c</string>
+    <string name="crash_toast_text">에러메일 전송</string>
+</resources>

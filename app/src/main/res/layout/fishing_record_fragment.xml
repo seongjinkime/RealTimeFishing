@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false">
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                >
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    >
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/empty_circle"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_fishnum_record"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20마리"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    android:layout_weight="1.3"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_fishing_date_record"
+
+                        android:textSize="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginBottom="5dp"
+                        android:text="시간: 2015-05.27 15:32:42"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="메모:Gson can serialize collection of arbitrary objects but can not "
+                        android:textSize="12dp"
+                        android:textColor="@android:color/white"
+                        android:layout_gravity="left"
+                        />
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="13dp"
+                android:layout_weight="1"
+                >
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_tide_compass_record"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/compass"/>
+
+                    <TextView
+                        android:id="@+id/tv_tide_speed_record"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3.45m/s"
+                        android:textColor="@android:color/white"
+                        android:layout_gravity="center"
+                        android:textSize="10dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:text="조류"
+                        android:textColor="@android:color/white"
+                        android:textSize="12dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="수온"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@android:color/white"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="12dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/temp_circle"/>
+
+                    <LinearLayout
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        >
+                        <TextView
+                            android:id="@+id/tv_water_temp_record"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10.9"
+                            android:textColor="@android:color/white"
+                            android:layout_gravity="center_horizontal"
+                            android:textSize="10dp"
+                            android:layout_marginBottom="5dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="°C"
+                            android:textColor="@android:color/white"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"
+                            android:textSize="10dp"
+                            />
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    >
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="관측지:"
+                            android:textColor="@android:color/white"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="8dp"
+                            android:textSize="12dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_ocean_post_record"
+                            android:textSize="12dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@android:color/white"
+                            android:text="안산"
+                            />
+
+
+                    </FrameLayout>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

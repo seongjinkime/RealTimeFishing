@@ -1,0 +1,33 @@
+Applications Memory Usage (kB):
+Uptime: 4044644 Realtime: 4044639
+
+** MEMINFO in pid 1784 [com.example.kimseongjin.realtime_fishing] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap       60       60        0        4     9444     7234      105
+  Dalvik Heap    13438    13188        0     4100    21644    18664     2980
+ Dalvik Other     3130     3076        0      664                           
+        Stack       20       20        0       12                           
+    Other dev        4        0        4        0                           
+     .so mmap     3017     1196     1440     2364                           
+    .jar mmap        2        0        0        0                           
+    .apk mmap      179        0       24        0                           
+    .ttf mmap      148        0       20        0                           
+    .dex mmap     4181       68     3600        0                           
+   Other mmap       11        8        0        0                           
+      Unknown     4684     4684        0       56                           
+        TOTAL    28874    22300     5088     7200    31088    25898     3085
+ 
+ Objects
+               Views:       16         ViewRootImpl:        1
+         AppContexts:        3           Activities:        1
+              Assets:        3        AssetManagers:        3
+       Local Binders:       12        Proxy Binders:       23
+    Death Recipients:        1
+     OpenSSL Sockets:        1
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

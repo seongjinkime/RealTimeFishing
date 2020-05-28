@@ -1,0 +1,24 @@
+TASK com.example.kimseongjin.realtime_fishing id=21
+  ACTIVITY com.example.kimseongjin.realtime_fishing/.RealTime_Map 4454df50 pid=1784
+    Local FragmentActivity 428e8eb0 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@428e9178
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@428e9178
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{428eb3c8 V.E..... ... 0,0-720,1280}
+        android.widget.LinearLayout{428ebbd8 V.E..... ... 0,0-720,1280}
+          android.view.ViewStub{428ec758 G.E..... ... 0,0-0,0 #10203cd}
+          android.widget.FrameLayout{428eca78 V.E..... ... 0,50-720,1280}
+            android.support.v7.widget.ActionBarOverlayLayout{428f15f8 V.ED.... ... 0,0-720,1230 #7f0b0055 app:id/decor_content_parent}
+              android.support.v7.widget.ContentFrameLayout{428f35d8 V.ED.... ... 0,112-720,1230 #1020002 android:id/content}
+                android.widget.LinearLayout{429146a0 V.E..... ... 0,0-720,1118}
+                  android.widget.FrameLayout{42914a88 V.E..... ... 0,0-720,1118 #7f0b0082 app:id/map_View_Container}
+                    net.daum.mf.map.api.MapView{42915c30 VFE..... F.. 0,0-720,1118}
+              android.support.v7.widget.ActionBarContainer{428f5188 V.ED.... ... 0,0-720,112 #7f0b0056 app:id/action_bar_container}
+                android.support.v7.widget.Toolbar{428f5c00 V.E..... ... 0,0-720,112 #7f0b0057 app:id/action_bar}
+                  android.support.v7.widget.AppCompatTextView{42911f18 V.ED.... ... 32,29-341,83}
+                  android.support.v7.widget.ActionMenuView{429c6f30 V.E..... ... 720,0-720,112}
+                android.support.v7.widget.ActionBarContextView{42909130 G.E..... ... 0,0-0,0 #7f0b0058 app:id/action_context_bar}
